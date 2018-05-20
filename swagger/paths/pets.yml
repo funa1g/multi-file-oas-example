@@ -42,4 +42,4 @@ post:
       content:
         application/json:
           schema:
-            $ref: "#/components/schemas/Error"
+            $ref: "../openapi.yml#/components/schemas/Error"
