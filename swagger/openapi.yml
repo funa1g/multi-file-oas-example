@@ -13,6 +13,9 @@ paths:
     $ref: './paths/pet.yml'
 components:
   schemas:
-    Pet: './components/pet.yml'
-    Pets: './components/pets.yml'
-    Error: './components/error.yml'
+    Pet:
+      $ref: './components/pet.yml'
+    Pets:
+      $ref: './components/pets.yml'
+    Error:
+      $ref: './components/error.yml'
