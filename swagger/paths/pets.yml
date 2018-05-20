@@ -22,13 +22,13 @@ get:
       content:
         application/json:
           schema:
-            $ref: "#/components/schemas/Pets"
+            $ref: "../openapi.yml#/components/schemas/Pets"
     default:
       description: unexpected error
       content:
         application/json:
           schema:
-            $ref: "#/components/schemas/Error"
+            $ref: "../openapi.yml#/components/schemas/Error"
 post:
   summary: Create a pet
   operationId: createPets
